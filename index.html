@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FikaTime ☕ / LunchTime 🥪</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" id="fikaWidget">
+      <div class="top">
+        <h1 class="title">Är det fika eller lunch?</h1>
+        <div class="meta">
+          <span id="modeBadge" class="badge">—</span>
+          <span id="clock" class="badge">—</span>
+        </div>
+      </div>
+
+      <div id="result" class="result">—</div>
+      <div id="countdown" class="countdown"></div>
+      <div id="nameday" class="nameday"></div>
+
+      <div id="checkinWrap" class="checkin">
+        <div id="checkinStatus" class="checkinStatus"></div>
+        <button id="checkinBtn" class="btn">Checka in</button>
+      </div>
+
+      <div class="footer">
+        <small>Stockholm‑tid • Check‑in sparas lokalt i din webbläsare</small>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
